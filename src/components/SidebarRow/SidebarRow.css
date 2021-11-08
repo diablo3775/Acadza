@@ -1,0 +1,30 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 0px 15px;
+    cursor: pointer;
+  }
+  
+  .sidebarRow:hover {
+    background-color: #7c3aed;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .sidebarRow:hover > .MuiSvgIcon-root {
+    color: white;
+  }
+  
+  .sidebarRow > h4 {
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  
+  .sidebarRow > .MuiSvgIcon-root {
+    /* font-size: xx-large; */
+    color: #7c3aed;
+  }
+
+  .sidebarRow__title {
+      margin-left: 20px;
+  }
